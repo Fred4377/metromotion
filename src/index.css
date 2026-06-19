@@ -2,11 +2,11 @@
 
 :root {
   /* Command Center Dark Palette */
-  --bg-darker: #080b11;
-  --bg-dark: #0f141f;
-  --card-glass: rgba(18, 25, 38, 0.7);
-  --border-glass: rgba(255, 255, 255, 0.05);
-  --border-glass-glow: rgba(0, 210, 255, 0.2);
+  --bg-darker: #060711;
+  --bg-dark: #0b0c1a;
+  --card-glass: rgba(15, 18, 36, 0.7);
+  --border-glass: rgba(255, 255, 255, 0.04);
+  --border-glass-glow: rgba(0, 210, 255, 0.25);
   
   /* Telemetry Glow Colors */
   --neon-cyan: #00d2ff;
@@ -119,8 +119,11 @@ body {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 1.5rem;
-  background: radial-gradient(circle at 70% 20%, rgba(0, 210, 255, 0.03) 0%, transparent 60%),
-              radial-gradient(circle at 10% 80%, rgba(0, 255, 170, 0.02) 0%, transparent 50%);
+  background-color: #05060f;
+  background-image: 
+    radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 15% 85%, rgba(0, 210, 255, 0.06) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(124, 58, 237, 0.04) 0%, transparent 60%);
 }
 
 .dashboard-header {
